@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+html{
+  background: url('../img/mapa.jpg') no-repeat center;
+  background-size: contain;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  align-items: center;
+}
+
+header{
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.title{
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+}
+
+aside{
+  align-items: flex-end;
+}
+
+.flecha_izq{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
