@@ -12,7 +12,7 @@ print("************Acceso concedido para: Fernando***********")
 print("\n")
 print("*****************Solicitud de: 'Areas'****************")
 print("\n")
-print("****************En espera de Solicitud****************")
-print("\\")
-print("\n")
-print("\n")
+print("****************En espera de Solicitud****************\n")
+
+while True:
+    print("\\\b|\b/\b-\b|")
